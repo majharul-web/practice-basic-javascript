@@ -1,5 +1,5 @@
 
-// using if-else
+// get grade using if-else
 
 
 function getGrade(avg) {

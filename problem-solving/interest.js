@@ -1,3 +1,5 @@
+// get interest
+
 function getInterest(taka, year) {
     var ret = 5;
     let total = (taka * year * ret) / 100
