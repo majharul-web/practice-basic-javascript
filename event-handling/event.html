@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Event</title>
+    <style>
+      h1 {
+        text-align: center;
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Dom Event Practice</h1>
+    </header>
+    <main>
+      <section>
+        <!-- 1st -->
+        <button onclick="document.body.style.backgroundColor='yellow' ">click me yellow</button>
+
+        <!-- 2nd -->
+        <button onclick="makeRed()">click me red</button>
+
+        <!-- 3rd -->
+        <button id="make-blue-button">click me red</button>
+
+        <!--4th -->
+        <button id="make-green-button">click me green</button>
+
+        <!--5th -->
+        <button id="make-goldenrod-button">click me gold</button>
+
+        <!--6th -->
+        <button id="make-orange-button">click me orange</button>
+
+        <!--7th -->
+        <button id="make-purple-button">click me orange</button>
+      </section>
+
+      <section>
+        <p id="clickingMethod"></p>
+        <input id="inputText" type="text" />
+        <button id="submit-button">submit</button>
+        <button id="tool-tipButton">tool tip</button>
+      </section>
+    </main>
+    <script src="event.js"></script>
+  </body>
+</html>
